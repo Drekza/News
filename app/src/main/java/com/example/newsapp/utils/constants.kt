@@ -1,4 +1,4 @@
-package com.example.newsapp.ui.utils
+package com.example.newsapp.utils
 
 class constants {
     companion object{
