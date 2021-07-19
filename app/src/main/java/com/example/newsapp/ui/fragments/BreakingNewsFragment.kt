@@ -17,6 +17,9 @@ import com.example.newsapp.ui.NewsViewModel
 import com.example.newsapp.ui.NewsViewModelProviderFactory
 import com.example.newsapp.utils.Resource
 import kotlinx.android.synthetic.main.fragment_breaking_news.*
+import org.koin.android.compat.ScopeCompat
+import org.koin.android.compat.ScopeCompat.viewModel
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
 
