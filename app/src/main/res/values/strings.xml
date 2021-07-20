@@ -4,4 +4,7 @@
     <string name="saved_news">Saved News</string>
     <string name="search_news">Search News</string>
     <string name="article">article</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="network_failure">Network failure</string>
+    <string name="conversion_error">Conversion error</string>
 </resources>

@@ -30,7 +30,7 @@ class SavedNewsFragment : Fragment(R.layout.fragment_saved_news) {
         super.onViewCreated(view, savedInstanceState)
 
         val newsRepository = NewsRepository(ArticleDatabase(appContext))
-        val viewModelProviderFactory = NewsViewModelProviderFactory(newsRepository)
+        val viewModelProviderFactory = NewsViewModelProviderFactory(newsRepository, requireActivity().application)
 
         val viewModel = ViewModelProvider(this, viewModelProviderFactory).get(NewsViewModel::class.java)
 
